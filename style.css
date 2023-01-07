@@ -1,0 +1,82 @@
+.banner {
+    height: 450px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+}
+
+.social-media a img {
+    border-radius: 100%;
+    width: 48px;
+    margin: 0px 10px;
+}
+
+.social-media-icon:hover {
+    animation-name: 'social-media';
+    animation-timing-function: ease-out;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes social-media {
+    from {filter: drop-shadow(0 0 0.75rem rgb(236, 231, 232));}
+    to {filter: drop-shadow(0 0 0.3rem rgb(116, 114, 114)); transform: scale(1.1);}
+}
+
+.thumb-pic {
+    width: 40%;
+}
+
+.profile h2 {
+    margin-bottom: 50px;
+}
+
+.experience h2 {
+    margin-bottom: 50px;
+}
+
+.portfolio-content {
+    height: 300px;
+}
+
+.carousel-content img {
+    width: 400px !important;
+    height: 300px !important;
+}
+
+.carousel-caption {
+    margin-top: 200px;
+}
+
+.skills-img {
+    width: fit-content;
+}
+
+.skills-img img {
+    width: 100px;
+}
+
+.ability {
+    width: fit-content;
+}
+
+.ability img {
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .thumb-pic, .profile-desc {
+        width: 90%;
+    }
+
+    .carousel-content img {
+        width: 300px !important;
+        height: 200px !important;
+    }    
+
+    .social-media a img {
+        width: 32px;
+    }
+}

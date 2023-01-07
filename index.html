@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.css">
+</head>
+
+<body>
+    <section id="nav-section position-fixed z-3">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">John Doe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="content">
+        <div class="banner bg-info-subtle w-100 d-flex flex-column align-items-center justify-content-center px-4">
+            <img class="profile-pic rounded-circle border border-4 border-success-subtle" src="img/profile-pic.jpg" alt="">
+            <h2 class="mt-2 fw-semibold">Hi! I'm John</h2>
+            <p class="text-center">I'm a Website Developer Who like's to keep improving my skills</p>
+            <div class="social-media d-flex justify-content-center">
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/facebook.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/instagram.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/twitter.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/whatsapp.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/linkedin.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="social-media-icon" src="img/icons/github.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="profile my-3">
+                <h2 class="text-center fw-normal mb-2">About Me</h2>
+                <div class="d-flex justify-content-center">
+                    <div class="profile-desc px-4">
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero excepturi dolorum ullam, eaque fugiat dolor odio suscipit culpa eum quo mollitia voluptatibus deleniti, cupiditate reprehenderit, iste voluptate in? Laboriosam, dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ea temporibus officiis nobis deserunt. Vel voluptas provident, possimus blanditiis quo illum magnam pariatur ad deleniti error, itaque asperiores quasi ipsam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eum obcaecati aliquid, magnam consequuntur, repellendus illum porro quaerat cupiditate aliquam amet quisquam at qui architecto aspernatur corrupti nemo labore incidunt?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="education my-5">
+                <h2 class="fw-normal text-center mb-5">Educational Background</h2>
+                <div class="row mx-auto mt-2">
+                    <div class="col-12 mb-4 d-flex justify-content-start">
+                        <div class="education-thumb rounded-circle shadow me-4" style="width: fit-content; height: fit-content;">
+                            <img class="rounded-circle" src="img/edu.png" alt="" style="width: 100px;">
+                        </div>
+                        <div class="education-des">
+                            <h5 class="card-title">Mercu Buana University</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Informatic | Sept 2018 - Dec 2022</h6>
+                            <ol>
+                                <li>GPA : 3.5</li>
+                                <li>Finalist on Mercu Buana Codig Event (Data Science Competition)</li>
+                                <li>Part of Computer Laboratory Assistant</li>
+                                <li>Actively Work on website project with lecturer</li>
+                            </ol>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 mb-md-0 d-flex justify-content-start">
+                        <div class="education-thumb rounded-circle shadow me-4" style="width: fit-content; height: fit-content;">
+                            <img class="rounded-circle" src="img/edu.png" alt="" style="width: 100px;">
+                        </div>
+                        <div class="education-des">
+                            <h5 class="card-title">SMAN 4 Bekasi</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">MIPA | June 2014 - May 2017</h6>
+                            <ol>
+                                <li>GPA : 3.0</li>
+                                <li>Vice leader of Pencak Silat extracurricular</li>
+                            </ol>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 mb-4 mb-md-0 d-flex justify-content-start">
+                        <div class="education-thumb rounded-circle shadow me-4" style="width: fit-content; height: fit-content;">
+                            <img class="rounded-circle" src="img/edu.png" alt="" style="width: 100px;">
+                        </div>
+                        <div class="education-des">
+                            <h5 class="card-title">Mercu Buana University</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Informatic | Sept 2018 - Dec 2022</h6>
+                            <ol>
+                                <li>GPA : 3.5</li>
+                                <li>Finalist on Mercu Buana Codig Event (Data Science Competition)</li>
+                                <li>Part of Computer Laboratory Assistant</li>
+                                <li>Actively Work on website project with lecturer</li>
+                            </ol>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <hr>
+            <div class="experience my-5">
+                <h2 class="fw-normal text-center">My Experience</h2>
+                <div class="row mx-auto">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="card mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Company A</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Software Engineer</h6>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="card mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Company B</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Website Developer</h6>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="card mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                              <h5 class="card-title">Company C</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">Programmer</h6>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="card-link">Card link</a>
+                              <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="portfolio my-5">
+                <h2 class="text-center fw-normal mb-5">Work Portfolio</h2>
+                <!-- Set up your HTML -->
+                <div class="owl-carousel d-flex justify-content-center">
+                    <div class="carousel-content mx-auto">
+                        <img src="img/portfolio-1.png" class="mx-auto" alt="...">
+                        <p class="text-center mt-2">Company Profile for Company A using HTML, CSS, Js and Bootstrap</p>
+                    </div>
+                    <div class="carousel-content mx-auto">
+                        <img src="img/portfolio-2.png" class="mx-auto" alt="...">
+                        <p class="text-center mt-2">Administrator Dashboard for Company B Admin to manage content on main website using NuxtJS, Tailwind CSS, and Laravel Lumen</p>
+                    </div>
+                    <div class="carousel-content mx-auto">
+                        <img src="img/portfolio-3.png" class="mx-auto" alt="...">
+                        <p class="text-center mt-2">Blog Manager for Company C user to create or maintain blog for the main website using Laravel 9 and Tailwind CSS</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="skills my-5">
+                <h2 class="text-center fw-normal mb-4">I Am a</h2>
+                <div class="row d-flex justify-content-center">
+                    <div class="ability mx-4">
+                        <img src="img/problem-solver.jpg" alt="">
+                        <p class="text-center fw-semibold mt-1" style="max-width: 200px;">Problem Solver</p>
+                    </div>
+                    <div class="ability mx-4">
+                        <img src="img/detail.jpg" alt="">
+                        <p class="text-center fw-semibold mt-1" style="max-width: 200px;">Person With Attention to Detail</p>
+                    </div>
+                    <div class="ability mx-4">
+                        <img src="img/deadline.jpg" alt="">
+                        <p class="text-center fw-semibold mt-1" style="max-width: 200px;">Deadline Conqueror</p>
+                    </div>
+                    <!-- <div class="card ability shadow mx-2">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                    <div class="card ability shadow mx-2">
+                        <div class="card-body">
+                        </div>
+                    </div>
+                    <div class="card ability shadow mx-2">
+                        <div class="card-body">
+                        </div>
+                    </div> -->
+                </div>
+                <!-- skills for programmer -->
+                <!-- <div class="row d-flex justify-content-center">
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/html.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/css.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/js.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/jquery.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/bootstrap.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/laravel.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/nuxt.png" alt="">
+                    </div>
+                    <div class="skills-img m-2 col-2 col-md-3 col-sm-2 p-4 rounded-circle shadow-lg">
+                        <img src="img/mysql.png" alt="">
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="w-full bg-primary-subtle d-flex justify-content-center align-items-center" style="height: 50px;">
+            <p class="text-center mb-0">Copyright by valen 2022</p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
+    <script src="owlcarousel/dist/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items:1,
+                loop:true,
+                margin:10,
+                autoplay:true,
+                autoplayTimeout:4000,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
+</body>
+
+</html>
